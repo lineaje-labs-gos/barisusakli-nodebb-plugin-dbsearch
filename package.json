@@ -1,11 +1,11 @@
 {
   "name": "nodebb-plugin-dbsearch",
-  "version": "7.0.0",
+  "version": "7.0.0-lineaje-01",
   "description": "A Plugin that lets users search posts and topics",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/barisusakli/nodebb-plugin-dbsearch"
+    "url": "https://github.com/lineaje-labs-gos/barisusakli-nodebb-plugin-dbsearch"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,6 +18,12 @@
   ],
   "author": "Baris Usakli <baris@designcreateplay.com>",
   "license": "BSD-2-Clause",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "dependencies": {
     "lodash": "4.17.23",
     "redisearch": "^2.0.1"
